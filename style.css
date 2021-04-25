@@ -7,7 +7,6 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: auto;
-  display: flex;
   background-color: #212529;
 }
 
@@ -25,7 +24,7 @@ body {
   border-color: #495057;
   border-style: hidden;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   background-color: #adb5bd;
   color: #212529;
@@ -42,38 +41,6 @@ body {
   justify-content: space-around;
   width: 10vw;
   display: flex;
-}
-
-.nextButton {
-  background-color: #495057;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  margin: auto;
-  padding: 10px;
-  cursor: pointer;
-  display: none;
-  color: #f7fff5;
-}
-
-.nextButton:hover {
-  background-color: #343a40;
-}
-
-.precButton:hover {
-  background-color: #343a40;
-}
-
-.precButton {
-  background-color: #495057;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  margin: auto;
-  padding: 10px;
-  cursor: pointer;
-  display: none;
-  color: #f7fff5;
 }
 
 .searchButton {
@@ -94,10 +61,18 @@ body {
   margin: auto;
 }
 
-.main h1 {
+.header {
+  color: #caffbf;
   text-align: center;
+  line-height: 1rem;
+  margin: 2rem auto;
+}
+
+.header p {
+  font-style: italic;
+}
+.header h1 {
   font-size: 72px;
-  color: #dee2e6;
 }
 
 .card {
@@ -210,4 +185,26 @@ body {
     margin: auto;
     width: fit-content;
   }
+
+  .header {
+    line-height: normal;
+  }
+}
+
+footer {
+  background-color: #343a40;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 4rem auto;
+  color: #adb5bd;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+a:visited {
+  text-decoration: none;
+  color: #caffbf;
 }
