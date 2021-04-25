@@ -15,4 +15,6 @@ If you go hover the card you get info about:
 ![](screen/opera_YIS0p8PuFh.png)
 
 The site is avaiable even for mobile!  
-![](screen/opera_gAFJueBs15.png)
+<p align="center">
+<img src="screen/opera_gAFJueBs15.png" 
+     </p>
