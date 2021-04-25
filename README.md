@@ -15,5 +15,5 @@ If you go hover the card you get info about:
 * A short overview
 ![](screen/opera_YIS0p8PuFh.png)
 
-The site is avaiable even for mobile!
+The site is avaiable even for mobile! \n
 ![](screen/opera_gAFJueBs15.png)
