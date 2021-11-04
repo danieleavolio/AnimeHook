@@ -65,9 +65,12 @@ async function getAnime() {
     document.getElementById("content").appendChild(card);
   });
   
+  document.getElementById("formone").addEventListener("keyup",(event)=>{
+    event.preventDefault();
+  })
+
   document.getElementById("search").addEventListener("keyup", (event)=>{
     if (event.keyCode ===  13){
-      event.preventDefault();
       document.getElementById("searchButton").click();
     }
   });
