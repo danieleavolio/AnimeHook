@@ -64,7 +64,13 @@ async function getAnime() {
 
     document.getElementById("content").appendChild(card);
   });
-
+  
+  document.getElementById("search").addEventListener("keyup", (event)=>{
+    if (event.keyCode ===  13){
+      event.preventDefault();
+      document.getElementById("searchButton").click();
+    }
+  });
   //settaggio degli stili
 
   /*
